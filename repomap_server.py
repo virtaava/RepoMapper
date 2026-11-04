@@ -55,7 +55,7 @@ async def repo_map(
     project_root: str,
     chat_files: Optional[List[str]] = None,
     other_files: Optional[List[str]] = None,
-    token_limit: Any = 8192,  # Accept any type to handle empty strings
+    token_limit: int = 8192,
     exclude_unranked: bool = False,
     force_refresh: bool = False,
     mentioned_files: Optional[List[str]] = None,
